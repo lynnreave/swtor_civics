@@ -1,0 +1,99 @@
+civic_imperial_resolve = {
+	potential = { ethics = { NOT = { value = ethic_gestalt_consciousness } } }
+	possible = {
+		authority = {
+			OR = {
+				value = auth_sith_dark_council
+
+			}
+		}
+	}
+	random_weight = { base = 1 }
+	modifier = {
+		planet_unrest_add = -25
+		pop_government_ethic_attraction = 0.15
+	}
+}
+
+civic_imperial_fleet = {
+	potential = { ethics = { NOT = { value = ethic_gestalt_consciousness } } }
+	possible = {
+		authority = {
+			OR = {
+				value = auth_sith_dark_council
+			}
+		}
+	}
+	random_weight = { base = 1 }
+	modifier = {
+		ship_fire_rate_mult = 0.20
+		ship_upkeep_mult = -0.10
+	}
+}
+
+civic_imperial_recruitment = {
+	potential = { ethics = { NOT = { value = ethic_gestalt_consciousness } } }
+	possible = {
+		authority = {
+			OR = {
+				value = auth_sith_dark_council
+			}
+		}
+	}
+	random_weight = { base = 1 }
+	modifier = {
+		leader_skill_levels = 1
+		country_leader_pool_size = 2
+		pop_resource_output = 0.25
+	}
+}
+
+civic_galactic_constitution = {
+	potential = { ethics = { NOT = { value = ethic_gestalt_consciousness } } }
+	possible = {
+		authority = {
+			OR = {
+				value = auth_galactic_senate
+			}
+		}
+	}
+	random_weight = { base = 1 }
+	modifier = {
+		country_resource_unity_mult = 0.15
+		pop_growth_speed = 0.25
+		pop_citizen_happiness = 0.05
+	}
+}
+
+civic_jedi_defenders = {
+	potential = { ethics = { NOT = { value = ethic_gestalt_consciousness } } }
+	possible = {
+		authority = {
+			OR = {
+				value = auth_galactic_senate
+			}
+		}
+	}
+	random_weight = { base = 1 }
+	modifier = {
+		army_damage_mult = 0.20
+		country_resource_influence_add = 1
+	}
+}
+
+civic_galactic_citizenry = {
+	potential = { ethics = { NOT = { value = ethic_gestalt_consciousness } } }
+	possible = {
+		authority = {
+			OR = {
+				value = auth_galactic_senate
+			}
+		}
+	}
+	random_weight = { base = 1 }
+	modifier = {
+		navy_size_mult = 0.15
+		country_leader_pool_size = 2
+		num_tech_alternatives_add = 1
+	}
+}

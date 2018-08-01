@@ -1,0 +1,37 @@
+﻿l_english:
+
+  #####################################
+  # Governments
+  #####################################
+
+  gov_galactic_republic:0 "Galactic Republic"
+  gov_galactic_republic_desc:0 "The Galactic Republic is the ruling government of most of the known galaxy. It is a representative democracy, composed of various star systems, sectors, and member worlds. The primary legislative body is that of the Galactice Senate, with the executive officer of state being the Supreme Chancellor. It maintains strong ties with the Jedi Order as an advising council."
+  auth_galactic_senate:0 "Galactic Senate"
+  auth_galactic_senate_desc:0 "The Galactic Senate is the legislative body of the Galactic Republic and the place where all the Republic's elected and appointed senators and representatives from the farthest reaches of the galaxy discuss major problems and come to decisions."
+  civic_galactic_constitution:0 "Galactic Constitution"
+  civic_galactic_constitution_desc:0 "The Galactic Republic was founded with the ratification of its constitution in 25,053 BBY. It defines the powers of each of its branches, include important clauses promising rights to all its citizens as well as outlawing slavery."
+  civic_jedi_defenders:0 "Jedi Defenders"
+  civic_jedi_defenders_desc:0 "The Jedi Order has sworn to defend the Galactic Republic and all of its citizens. They are zealous champions of peace, tranquility, and compassion for all peoples as well as being renowned negotatiors and combatants."
+  civic_galactic_citizenry:0 "Galactic Citizenry"
+  civic_galactic_citizenry_desc:0 "Most of the known galaxy belongs to and is represented by the Galactic Senate."
+  RT_SUPREME_CHANCELLOR:0 "Supreme Chancellor"
+  RT_SUPREME_CHANCELLOR_F:0 "Supreme Chancellor"
+
+  gov_sith_empire:0 "Sith Empire"
+  gov_sith_empire_desc:0 "The Sith Empire is the reconstituted empire of the Sith after the near-eradication of the one led by Naga Sadow during the Great Hyperspace War of 5000 BBY. Under the immortal Emperor Vitiate and his Dark Council of Sith Lords, it works towards the goal of taking revenge on the Galactic Republic once and for all."
+  auth_sith_dark_council:0 "Sith Dark Council"
+  auth_sith_dark_council_desc:0 "The Dark Council is a twelve-member ruling body of the reconstituted Sith Empire, made up of the most powerful Sith in the Empire below the Emperor himself. Each member of the Council holds the title of Dark Lord of the Sith and controls one of the twelve Spheres of Influence within the Empire."
+  civic_imperial_resolve:0 "Imperial Resolve"
+  civic_imperial_resolve_desc:0 "The Sith Empire is united in its opposition to the Galactic Republic that attempted to wipe it out during the Great Hyperspace War."
+  civic_imperial_fleet:0 "Imperial Navy"
+  civic_imperial_fleet_desc:0 "The Imperial Navy represents the pinnacle of Sith might, force projection, and serves as an ever present reminder of the absolute power of the Sith Empire."
+  civic_imperial_recruitment:0 "Imperial Recruitment"
+  civic_imperial_recruitment_desc:0 "The Imperial Recruitment Office will assess, screen, and induct the finest enlisted and officer candidates available."
+
+  gov_jedi_council:0 "Jedi Council"
+  gov_jedi_council_desc:0 "The Jedi Order is managed and directed by a small group of seasoned Jedi Masters, following the ways of the Light Side of the Force and remaining ever vigilant against the Dark Side and the Sith."
+  RT_GRAND_MASTER:0 "Grand Master"
+
+  gov_mandalorian_clan:0 "Mandalorian Clans"
+  gov_mandalorian_clan_desc:0 "This government is a militaristic dictatorship, where all decisions concerning the various clans are taken by the supreme leader of the Mandalorian people and culture, Mand'alor."
+  RT_MANDALORE:0 "Mandalore"

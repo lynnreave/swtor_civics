@@ -1,0 +1,53 @@
+gov_sith_empire = {
+	ruler_title = RT_EMPEROR
+	ruler_title_female = RT_EMPRESS
+
+	use_regnal_names = no
+	dynastic_last_names = no
+
+	possible = {
+		has_authority = auth_sith_dark_council
+		OR = {
+			has_ethic = ethic_dark_side
+			has_ethic = ethic_militarist
+		}
+	}
+
+	weight = {
+		base = 100000
+	}
+}
+
+gov_galactic_republic = {
+	ruler_title = RT_SUPREME_CHANCELLOR
+	ruler_title_female = RT_SUPREME_CHANCELLOR_F
+
+	election_candidates = {
+		modifier = {
+			add = 100
+			leader_class = ruler
+		}
+		modifier = {
+			add = 10
+			leader_class = admiral
+			leader_class = general
+			leader_class = governor
+		}
+		modifier = {
+			factor = 0
+			leader_class = scientist
+		}
+	}
+
+	possible = {
+		has_authority = auth_galactic_senate
+		OR = {
+			has_ethic = ethic_light_side
+			has_ethic = ethic_egalitarian
+		}
+	}
+
+	weight = {
+		base = 100000
+	}
+}
