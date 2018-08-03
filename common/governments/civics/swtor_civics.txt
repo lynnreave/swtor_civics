@@ -92,7 +92,7 @@ civic_galactic_citizenry = {
 	}
 	random_weight = { base = 1 }
 	modifier = {
-		navy_size_mult = 0.15
+		country_naval_cap_add = 50
 		country_leader_pool_size = 2
 		num_tech_alternatives_add = 1
 	}
